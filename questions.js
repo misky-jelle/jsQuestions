@@ -7,15 +7,9 @@ let fruits={
     
         return ` ${total},${fruit} for KES ${this.cherry * total}`
        
-    }
-    }
+    }}
     console.log(fruits.price("cherry",9));
     console.log(fruits.cherry)
-    console.log(fruits.price("orange",5));
-    console.log(fruits.orange)
-    console.log(fruits.price("banana",2));
-    console.log(fruits.banana)
-
 // Question 2
     class KioskCalc{
         constructor(fruits, quantity){
